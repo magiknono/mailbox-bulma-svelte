@@ -16,13 +16,24 @@ Let's go!
 
 ### resource
 
+- https://developer.mozilla.org/fr/docs/Web/HTML
+- https://developer.mozilla.org/fr/docs/Web/css
 - https://svelte.dev/docs
 - https://github.com/sveltejs/template
 - https://tailwindcss.com/docs/installation/
 - https://dev.to/muhajirdev/using-tailwindcss-with-sveltejs-2098
 - awesome svelte resource on github have already premade template
 
+### POMODORO 1 & 2
 
+- read & test install options (some failed, i may have used a ready template)
+- install with method this (link)[https://dev.to/muhajirdev/using-tailwindcss-with-sveltejs-2098]
+
+### POMODORO 2 & 3
+- define html & grid & class in figma (see images in drafts/)
+- define base html markups 
+
+### PAUSE
 
 ==========================================================================================================================================
 
