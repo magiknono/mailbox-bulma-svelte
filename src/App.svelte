@@ -1,6 +1,13 @@
 <script>
-	import 'bulma/css/bulma.css'
-	import { Button } from 'svelma'
+	import "bulma/css/bulma.css"
+
+
+	import NavUser from "./Blocks/NavUser.svelte"
+	import NavMenu from "./Blocks/NavMenu.svelte"
+	import NavSearch from "./Blocks/NavSearch.svelte"
+	import NavFilters from "./Blocks/NavFilters.svelte"
+	import ListMail from "./Blocks/ListMail.svelte"
+	import ContentMail from "./Blocks/ContentMail.svelte"
 </script>
 
 <style>
@@ -25,106 +32,21 @@ body {
 	"navuser navmenu navsearch"
 	"navfilters listmail contentmail";
 }
-.navuser{
-	grid-area: navuser;
-}
-.navmenu {
-	grid-area: navmenu;
-}
-.navsearch {
-	grid-area:navsearch;
-}
-.navfilters {
-	grid-area:navfilters;
-}
-.listmail {
-	grid-area:listmail;
-}
-.contentmail {
-	grid-area:contentmail
-}
-/* understanding border with tailwind 
-=====================================
-border border-color
-
-*/
-
 	
 </style>
 
 <div class="mygrid">
 
-	<nav class="navuser">Monica WHite</nav>
-	<nav class="navmenu">
-		<ul>
-			<li><Button>mailbox</Button></li>
-			<li>customers</li>
-			<li>reporting</li>
-			<li>manage</li>
-		</ul>
-	</nav>
-	<nav class="navsearch">
-		<input type="text" value="search">
-	</nav>
-	
+<NavUser />	
 
-	<nav class="navfilters">
-			mailboxes
-			<ul>
-				<li>inbox</li>
-				<li>flagged</li>
-				<li>drafts</li>
-				<li>assigned</li>
-				<li>closed</li>
-				<li>junk</li>
-			</ul>
-			folders
-			<ul>
-				<li>refunds</li>
-				<li>discounts</li>
-				<li>bugs</li>
-			</ul>
-	</nav>
+<NavMenu />
 
-	<div class="listmail">
-		<section>
-		from
-		x days ago
-		mail-start
-		</section>
-		<section>
-		from
-		x days ago
-		mail-start
-		</section>
-		<section>
-		from
-		x days ago
-		mail-start
-		</section>
-		<section>
-		from
-		x days ago
-		mail-start
-		</section>
-		<section>
-		from
-		x days ago
-		mail-start
-		</section>
-	</div>
+<NavSearch />
 
-	<div class="contentmail">
-		<section>
-		fix nav1
-		fix title1
-		content > with unders section
-		</section>
-		<section>
-		fix nav1
-		fix title1
-		content > with unders section
-		</section>
-	</div>
+<NavFilters />
+
+<ListMail />
+
+<ContentMail />
 	
 </div>

@@ -5,9 +5,9 @@ After the tweet of @adamwathan, (design a mailbox in 2 hours)[https://twitter.co
 design a mailbox in 2 hours with tailwindcss.
 Start from scratch in a svelte project with (webpack template)[https://github.com/sveltejs/template-webpack]
 
-2 hours = 4 pomodoro of 25 minutes
+1 hours = 4 pomodoro of 25 minutes
 
-1st pomodoro = install and conifgure tailwindcss with svelte and rollup (postcss ?)
+1st pomodoro = install and configure tailwindcss with svelte and rollup (postcss ?)
 2nd pomodoro = read docs and design markups - read grid docs or doing with css grid quickly
 3rd pomodoro = design utilities for container
 4th pomodoro = design details for box / icons etc
@@ -52,9 +52,13 @@ need to tweak svelte bundler to use style tag but after tailwind not working
 ## remove tailwindcss & config && restart from scratch ->
 
 ### Pomodoro 1
-
+Install & configure bulma with svelte:
 - install bulma & postcss for svelte -> svelma -> test OK
+Doing base html & layout
 - add css grid with html markups = OK
+
+### Pomodoro 2
+Separate each grid area in svelte blocks and import it in main App
 ==========================================================================================================================================
 
 *Psst — looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
