@@ -7,11 +7,11 @@ import { Button } from "svelma"
 	grid-area: navmenu;
 }
 </style>
-<nav class="navmenu">
-    <ul>
-        <li><Button>mailbox</Button></li>
-        <li>customers</li>
-        <li>reporting</li>
-        <li>manage</li>
-    </ul>
+<nav class="navmenu has-background-grey-light">
+    <div class="buttons">
+        <Button type="is-dark">mailbox</Button>
+        <Button type="is-dark">customers</Button>
+        <Button type="is-dark">report</Button>
+         <Button type="is-dark">manage</Button>
+    </div>
 </nav>

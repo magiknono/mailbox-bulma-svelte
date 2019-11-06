@@ -59,6 +59,9 @@ Doing base html & layout
 
 ### Pomodoro 2
 Separate each grid area in svelte blocks and import it in main App
+
+### pomodoro 3
+- made navuser and navmenu (css grid or flex nav..)
 ==========================================================================================================================================
 
 *Psst — looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
