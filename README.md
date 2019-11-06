@@ -85,6 +85,20 @@ it's not like tailwind style but basic is here
 TO SEE if nav headers need wil be better with flex to center & align or levels..
 add capture figma mailbox-proto-1 in drafts/
 
+# Pomodoro 7
+quick fix:
+-add sticky tabs to ListMail
+-add minimal size for responsive css grid navuser
+- make navmenu and nav search in only one component navmenu and use level class of bulma (left right)
+- change buttons send mail in dark for wireframe theming..
+
+PAUSE
+
+# Pomodoro 8 & 9
+- search contacts with randomuser api
+BAD: position fixed css
+to do: img in select
+it's not a search it"s a random call
 
 ==========================================================================================================================================
 
