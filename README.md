@@ -1,9 +1,11 @@
 # Intro
-After the tweet of @adamwathan, (design a mailbox in 2 hours)[https://twitter.com/adamwathan/status/1191807064223469568] i motivated myself to try doing the same without any experience in tailwindcss. (i already configure it with phoenix one time ...)
+After the tweet of @adamwathan, [design a mailbox in 2 hours](https://twitter.com/adamwathan/status/1191807064223469568) i motivated myself to try doing the same without any experience in tailwindcss. (i already configure it with phoenix one time ...)
+I lost 4 pomodoro before going back with bulma
+the finish looks like a wireframe not a finish frontend ![image](https://raw.github.com/magiknono/mailbox-bulma-svelte/master/drafts/v1-static.png)
 
 ## GOAL
 design a mailbox in 2 hours with tailwindcss.
-Start from scratch in a svelte project with (webpack template)[https://github.com/sveltejs/template-webpack]
+Start from scratch in a svelte project with [webpack template](https://github.com/sveltejs/template-webpack)
 
 1 hours = 4 pomodoro of 25 minutes
 
@@ -27,7 +29,7 @@ Let's go!
 ### POMODORO 1 & 2
 
 - read & test install options (some failed, i may have used a ready template)
-- install with method this (link)[https://dev.to/muhajirdev/using-tailwindcss-with-sveltejs-2098]
+- install with method this [link](https://dev.to/muhajirdev/using-tailwindcss-with-sveltejs-2098)
 
 ### POMODORO 2 & 3
 - define html & grid & class in figma (see images in drafts/)
@@ -100,76 +102,4 @@ BAD: position fixed css
 to do: img in select
 it's not a search it"s a random call
 
-==========================================================================================================================================
-
-*Psst — looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
-
----
-
-# svelte app
-
-This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
-
-To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
-
-```bash
-npx degit sveltejs/template svelte-app
-cd svelte-app
-```
-
-*Note that you will need to have [Node.js](https://nodejs.org) installed.*
-
-
-## Get started
-
-Install the dependencies...
-
-```bash
-cd svelte-app
-npm install
-```
-
-...then start [Rollup](https://rollupjs.org):
-
-```bash
-npm run dev
-```
-
-Navigate to [localhost:5000](http://localhost:5000). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
-
-By default, the server will only respond to requests from localhost. To allow connections from other computers, edit the `sirv` commands in package.json to include the option `--host 0.0.0.0`.
-
-
-## Deploying to the web
-
-### With [now](https://zeit.co/now)
-
-Install `now` if you haven't already:
-
-```bash
-npm install -g now
-```
-
-Then, from within your project folder:
-
-```bash
-cd public
-now
-```
-
-As an alternative, use the [Now desktop client](https://zeit.co/download) and simply drag the unzipped project folder to the taskbar icon.
-
-### With [surge](https://surge.sh/)
-
-Install `surge` if you haven't already:
-
-```bash
-npm install -g surge
-```
-
-Then, from within your project folder:
-
-```bash
-npm run build
-surge public
-```
+BACK to svelte learning
