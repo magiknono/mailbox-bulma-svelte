@@ -1,18 +1,21 @@
 # Intro
 After the tweet of @adamwathan, [design a mailbox in 2 hours](https://twitter.com/adamwathan/status/1191807064223469568) i motivated myself to try doing the same without any experience in tailwindcss. (i already configure it with phoenix one time ...)
+
 I lost 4 pomodoro before going back with bulma
+
+
 the finish looks like a wireframe not a finish frontend ![image](https://raw.github.com/magiknono/mailbox-bulma-svelte/master/drafts/v1-static.png)
 
 ## GOAL
-design a mailbox in 2 hours with tailwindcss.
-Start from scratch in a svelte project with [webpack template](https://github.com/sveltejs/template-webpack)
+ - design a mailbox in 2 hours with tailwindcss.
+ - Start from scratch in a svelte project with [webpack template](https://github.com/sveltejs/template-webpack)
 
 1 hours = 4 pomodoro of 25 minutes
 
-1st pomodoro = install and configure tailwindcss with svelte and rollup (postcss ?)
-2nd pomodoro = read docs and design markups - read grid docs or doing with css grid quickly
-3rd pomodoro = design utilities for container
-4th pomodoro = design details for box / icons etc
+* 1st pomodoro = install and configure tailwindcss with svelte and rollup (postcss ?)
+* 2nd pomodoro = read docs and design markups - read grid docs or doing with css grid quickly
+* 3rd pomodoro = design utilities for container
+* 4th pomodoro = design details for box / icons etc
 
 Let's go!
 
@@ -35,7 +38,7 @@ Let's go!
 - define html & grid & class in figma (see images in drafts/)
 - define base html markups 
 
-### PAUSE
+## PAUSE
 
 ### POMODORO 3 & 4
 
