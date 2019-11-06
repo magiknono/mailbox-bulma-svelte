@@ -26,7 +26,7 @@ body {
 	display:grid;
 	border:10px solid #eee;
 	height:100vh;
-	grid-template-columns:20vw 40vw 1fr;
+	grid-template-columns:15vw 25vw 1fr;
 	grid-template-rows:5em 1fr;
 	grid-template-areas:
 	"navuser navmenu navsearch"

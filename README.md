@@ -60,12 +60,19 @@ Doing base html & layout
 ### Pomodoro 2
 Separate each grid area in svelte blocks and import it in main App
 
-### pomodoro 3
+### Pomodoro 3
 - made navuser and navmenu (css grid or flex nav..)
 
-### pomodoro 4
+### Pomodoro 4
 - made search (without fontawesome)
 - made navfilters (without icons & hover)
+
+PAUSE
+Pomodoro 1 & 2 & 3 & 4 = 1h30 :-(
+
+### Pomodoro 5
+- made Listmail (maybe a media object will be better or message with media because of close button)
+
 ==========================================================================================================================================
 
 *Psst — looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
