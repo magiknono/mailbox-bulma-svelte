@@ -35,6 +35,19 @@ Let's go!
 
 ### PAUSE
 
+### POMODORO 3 & 4
+
+- lessons learned !
+need to tweak svelte bundler to use style tag but after tailwind not working
+- tailwind use normalize
+- too much classes !
+
+### lessons learned
+- retry tailwind last shot only with pure html & no css grid ...
+- resisting to the call of bulma
+- css utilities or not, that's the question
+- tailwind customization was all about tailwind.config.js
+
 ==========================================================================================================================================
 
 *Psst — looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*

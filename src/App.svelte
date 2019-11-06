@@ -10,10 +10,7 @@ navuser navoptions navoptions == header
 navfiters listmail contentmail == main
 ===========================
 */
-.container {
-	display:grid;
-	background-color:red;
-}
+
 
 /* understanding border with tailwind 
 =====================================
@@ -23,7 +20,7 @@ border border-color
 
 	
 </style>
-<div class="container border border-black">
+<div class="container border-2 border-black px-4">
 
 <header>
 	<nav class="navuser border border-blue-300">Monica WHite</nav>
