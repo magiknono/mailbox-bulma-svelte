@@ -4,20 +4,30 @@
 
 <style>
 
-/* my grid 
+/* flexbox
 ===========================
 navuser navoptions navoptions == header
 navfiters listmail contentmail == main
 ===========================
 */
+.container {
+	display:grid;
+	background-color:red;
+}
+
+/* understanding border with tailwind 
+=====================================
+border border-color
+
+*/
+
 	
 </style>
-
-<div class="container">
+<div class="container border border-black">
 
 <header>
-	<nav class="navuser">Monica WHite</nav>
-	<nav class="navoptions">
+	<nav class="navuser border border-blue-300">Monica WHite</nav>
+	<nav class="navoptions border border-blue-500">
 		<ul>
 			<li>mailbox</li>
 			<li>customers</li>
@@ -29,7 +39,7 @@ navfiters listmail contentmail == main
 </header>
 
 <main>
-	<nav class="navfilters">
+	<nav class="navfilters border border-indigo-500">
 			mailboxes
 			<ul>
 				<li>inbox</li>
@@ -47,7 +57,7 @@ navfiters listmail contentmail == main
 			</ul>
 	</nav>
 
-	<article class="listmail">
+	<article class="listmail border border-green-500">
 		<section>
 		from
 		x days ago
@@ -75,7 +85,7 @@ navfiters listmail contentmail == main
 		</section>
 	</article>
 
-	<article class="contentmail">
+	<article class="contentmail border border-yellow-500">
 		<section>
 		fix nav1
 		fix title1
@@ -89,4 +99,4 @@ navfiters listmail contentmail == main
 	</article>
 </main>
 
-</div>
+ </div>
