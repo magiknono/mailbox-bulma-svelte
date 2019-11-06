@@ -73,6 +73,19 @@ Pomodoro 1 & 2 & 3 & 4 = 1h30 :-(
 ### Pomodoro 5
 - made Listmail (maybe a media object will be better or message with media because of close button)
 
+### Pomodoro 6
+- made ContentMail base
+- remove svelma and keep bulma only css
+
+
+#### LUNCH PAUSE = 
+6 pomodoro from scratch with bulma = 3h
+it's not like tailwind style but basic is here
+
+TO SEE if nav headers need wil be better with flex to center & align or levels..
+add capture figma mailbox-proto-1 in drafts/
+
+
 ==========================================================================================================================================
 
 *Psst — looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*

@@ -1,5 +1,4 @@
 <script>
- import { Field, Input } from 'svelma'
 </script>
 <style>
 .navsearch {
@@ -8,7 +7,9 @@
 </style>
 
 <nav class="navsearch has-background-grey-light">
-    <Field>
-    <Input placeholder="Search" />
-    </Field>
+   <div class="field">
+    <div class="control">
+     <input class="input is-dark" type="text" placeholder="search">
+    </div>
+    </div>
 </nav>

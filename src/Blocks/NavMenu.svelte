@@ -1,5 +1,4 @@
 <script>
-import { Button } from "svelma"
 </script>
 
 <style>
@@ -9,9 +8,9 @@ import { Button } from "svelma"
 </style>
 <nav class="navmenu has-background-grey-light">
     <div class="buttons">
-        <Button type="is-dark">mailbox</Button>
-        <Button type="is-dark">customers</Button>
-        <Button type="is-dark">report</Button>
-         <Button type="is-dark">manage</Button>
+        <button class="button is-dark">mailbox</button>
+        <button class="button is-dark">customers</button>
+        <button class="button is-dark">report</button>
+        <button class="button is-dark">manage</button>
     </div>
 </nav>
