@@ -4,9 +4,30 @@
 .listmail {
 grid-area:listmail;
 overflow-y:scroll;
+scroll-behavior:smooth;
+}
+.tabs {
+    margin:0.5em;
+}
+.sticky-tabs {
+    position:sticky;
+    top:0px;
+    background:white;
+    z-index:2;
 }
 </style>
 <div class="listmail">
+    <section class="sticky-tabs">
+       <div class="tabs is-small">
+        <ul>
+            <li class="is-active">
+            <li><a>Pictures</a></li>
+            <li><a>Music</a></li>
+            <li><a>Videos</a></li>
+            <li><a>Documents</a></li>
+        </ul>
+        </div>
+    </section>
     <section>
        <article class="message">
         <div class="message-header">

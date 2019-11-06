@@ -1,10 +1,8 @@
 <script>
 	import "bulma/css/bulma.css"
 
-
 	import NavUser from "./Blocks/NavUser.svelte"
 	import NavMenu from "./Blocks/NavMenu.svelte"
-	import NavSearch from "./Blocks/NavSearch.svelte"
 	import NavFilters from "./Blocks/NavFilters.svelte"
 	import ListMail from "./Blocks/ListMail.svelte"
 	import ContentMail from "./Blocks/ContentMail.svelte"
@@ -26,10 +24,11 @@ body {
 	display:grid;
 	border:10px solid #eee;
 	height:100vh;
-	grid-template-columns:15vw 25vw 1fr;
-	grid-template-rows:5em 1fr;
+	grid-template-columns:minmax(15vw,190px) 25vw 1fr;
+	grid-template-rows:3.5em 1fr;
+	grid-row-gap:2.5em;
 	grid-template-areas:
-	"navuser navmenu navsearch"
+	"navuser navmenu navmenu"
 	"navfilters listmail contentmail";
 }
 	
@@ -41,7 +40,6 @@ body {
 
 <NavMenu />
 
-<NavSearch />
 
 <NavFilters />
 

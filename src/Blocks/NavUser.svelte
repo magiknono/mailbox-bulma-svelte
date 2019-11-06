@@ -3,26 +3,26 @@
 <style>
 .navuser{
 grid-area: navuser;
-
 }
 .media {
-	padding:0.7rem;
+	padding:0.75em;
 }
-.content {
-	padding:0.7rem;
+p {
+	padding:0.2em;
 }
+
 </style>
 
-<nav class="navuser has-background-grey">
-	<article class="media">
+<nav class="navuser">
+	<article class="media has-background-grey">
 		<div class="media-left">
-				<figure class="image is-48x48">
-					<img class="is-rounded" src="https://bulma.io/images/placeholders/48x48.png">
+				<figure class="image is-32x32">
+					<img class="is-rounded" src="https://bulma.io/images/placeholders/32x32.png">
 				</figure>
 			</div>
 			<div class="media-content">
 				<div class="content">
-					<p><strong>Monica WHite</strong></p>
+					<p><strong>John Doe</strong></p>
 				</div>
 		</div>
 	</article>

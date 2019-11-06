@@ -4,6 +4,7 @@
 <style>
 .navfilters {
     grid-area:navfilters;
+    padding:1em;
 }
 </style>
 <nav class="navfilters menu">

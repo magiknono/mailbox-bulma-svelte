@@ -29,7 +29,7 @@ overflow-y:auto;
             <nav class="level">
             <div class="level-left">
                 <div class="level-item">
-                <a class="button is-info">Send new email</a>
+                <a class="button is-light">Send new email</a>
                 </div>
             </div>
             <div class="level-right">
@@ -80,7 +80,7 @@ overflow-y:auto;
                     <br>
                     Donec sollicitudin urna eget eros malesuada sagittis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam blandit nisl a nulla sagittis, a lobortis leo feugiat.
                     <br>
-                    <small><a>show pdf</a> </small>
+                    <small><i class="fas fa-file-pdf"></i></small>
                 </p>
                 </div>
         </article>
@@ -106,7 +106,7 @@ overflow-y:auto;
             <nav class="level">
             <div class="level-left">
                 <div class="level-item">
-                <a class="button is-info">Answer email</a>
+                <a class="button is-light">Answer email</a>
                 </div>
             </div>
             <div class="level-right">
