@@ -6,20 +6,24 @@
     grid-area:navfilters;
 }
 </style>
-<nav class="navfilters">
+<nav class="navfilters menu">
+ <p class="menu-label">
     mailboxes
-    <ul>
-        <li>inbox</li>
-        <li>flagged</li>
-        <li>drafts</li>
-        <li>assigned</li>
-        <li>closed</li>
-        <li>junk</li>
-    </ul>
-    folders
-    <ul>
-        <li>refunds</li>
-        <li>discounts</li>
-        <li>bugs</li>
-    </ul>
+  </p>
+  <ul class="menu-list">
+    <li><a>inbox</a></li>
+    <li><a>flagged</a></li>
+    <li><a>drafts</a></li>
+    <li><a>assigned</a></li>
+    <li><a>closed</a></li>
+    <li><a>junk</a></li>
+  </ul>
+  <p class="menu-label">
+    Folders
+  </p>
+  <ul class="menu-list">
+    <li><a>refunds</a></li>
+    <li><a>bugs</a></li>
+    <li><a>discount</a></li>
+ </ul>
 </nav>

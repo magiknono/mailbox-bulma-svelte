@@ -62,6 +62,10 @@ Separate each grid area in svelte blocks and import it in main App
 
 ### pomodoro 3
 - made navuser and navmenu (css grid or flex nav..)
+
+### pomodoro 4
+- made search (without fontawesome)
+- made navfilters (without icons & hover)
 ==========================================================================================================================================
 
 *Psst — looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
