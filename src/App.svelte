@@ -1,5 +1,6 @@
 <script>
-	
+	import 'bulma/css/bulma.css'
+	import { Button } from 'svelma'
 </script>
 
 <style>
@@ -10,13 +11,38 @@ navuser navoptions navoptions == header
 navfiters listmail contentmail == main
 ===========================
 */
+body {
+	overflow-y:hidden;
+	width:100vw;
+}
 .mygrid {
 	display:grid;
-	background-color:red;
-	height:99vh;
-	width:98vw;
+	border:10px solid #eee;
+	height:100vh;
+	grid-template-columns:20vw 40vw 1fr;
+	grid-template-rows:5em 1fr;
+	grid-template-areas:
+	"navuser navmenu navsearch"
+	"navfilters listmail contentmail";
 }
-
+.navuser{
+	grid-area: navuser;
+}
+.navmenu {
+	grid-area: navmenu;
+}
+.navsearch {
+	grid-area:navsearch;
+}
+.navfilters {
+	grid-area:navfilters;
+}
+.listmail {
+	grid-area:listmail;
+}
+.contentmail {
+	grid-area:contentmail
+}
 /* understanding border with tailwind 
 =====================================
 border border-color
@@ -25,22 +51,23 @@ border border-color
 
 	
 </style>
+
 <div class="mygrid">
 
-<header>
 	<nav class="navuser">Monica WHite</nav>
-	<nav class="navoptions">
+	<nav class="navmenu">
 		<ul>
-			<li>mailbox</li>
+			<li><Button>mailbox</Button></li>
 			<li>customers</li>
 			<li>reporting</li>
 			<li>manage</li>
 		</ul>
+	</nav>
+	<nav class="navsearch">
 		<input type="text" value="search">
 	</nav>
-</header>
+	
 
-<main>
 	<nav class="navfilters">
 			mailboxes
 			<ul>
@@ -59,7 +86,7 @@ border border-color
 			</ul>
 	</nav>
 
-	<article class="listmail">
+	<div class="listmail">
 		<section>
 		from
 		x days ago
@@ -85,9 +112,9 @@ border border-color
 		x days ago
 		mail-start
 		</section>
-	</article>
+	</div>
 
-	<article class="contentmail">
+	<div class="contentmail">
 		<section>
 		fix nav1
 		fix title1
@@ -98,7 +125,6 @@ border border-color
 		fix title1
 		content > with unders section
 		</section>
-	</article>
-</main>
-
- </div>
+	</div>
+	
+</div>

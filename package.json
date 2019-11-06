@@ -11,7 +11,10 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
-    "sirv-cli": "^0.4.4"
+    "bulma": "^0.8.0",
+    "rollup-plugin-postcss": "^2.0.3",
+    "sirv-cli": "^0.4.4",
+    "svelma": "^0.3.0"
   },
   "scripts": {
     "build": "rollup -c",

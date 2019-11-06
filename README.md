@@ -49,8 +49,12 @@ need to tweak svelte bundler to use style tag but after tailwind not working
 - tailwind customization was all about tailwind.config.js
 - maybe i dont know enough tailbox
 
-## remove tailwindcss & config && restart from scratch
+## remove tailwindcss & config && restart from scratch ->
 
+### Pomodoro 1
+
+- install bulma & postcss for svelte -> svelma -> test OK
+- add css grid with html markups = OK
 ==========================================================================================================================================
 
 *Psst — looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
