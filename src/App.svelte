@@ -4,13 +4,18 @@
 
 <style>
 
-/* flexbox
+/* mygrid
 ===========================
 navuser navoptions navoptions == header
 navfiters listmail contentmail == main
 ===========================
 */
-
+.mygrid {
+	display:grid;
+	background-color:red;
+	height:99vh;
+	width:98vw;
+}
 
 /* understanding border with tailwind 
 =====================================
@@ -20,11 +25,11 @@ border border-color
 
 	
 </style>
-<div class="container border-2 border-black px-4">
+<div class="mygrid">
 
 <header>
-	<nav class="navuser border border-blue-300">Monica WHite</nav>
-	<nav class="navoptions border border-blue-500">
+	<nav class="navuser">Monica WHite</nav>
+	<nav class="navoptions">
 		<ul>
 			<li>mailbox</li>
 			<li>customers</li>
@@ -36,7 +41,7 @@ border border-color
 </header>
 
 <main>
-	<nav class="navfilters border border-indigo-500">
+	<nav class="navfilters">
 			mailboxes
 			<ul>
 				<li>inbox</li>
@@ -54,7 +59,7 @@ border border-color
 			</ul>
 	</nav>
 
-	<article class="listmail border border-green-500">
+	<article class="listmail">
 		<section>
 		from
 		x days ago
@@ -82,7 +87,7 @@ border border-color
 		</section>
 	</article>
 
-	<article class="contentmail border border-yellow-500">
+	<article class="contentmail">
 		<section>
 		fix nav1
 		fix title1

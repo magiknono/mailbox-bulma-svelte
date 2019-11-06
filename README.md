@@ -47,6 +47,9 @@ need to tweak svelte bundler to use style tag but after tailwind not working
 - resisting to the call of bulma
 - css utilities or not, that's the question
 - tailwind customization was all about tailwind.config.js
+- maybe i dont know enough tailbox
+
+## remove tailwindcss & config && restart from scratch
 
 ==========================================================================================================================================
 
